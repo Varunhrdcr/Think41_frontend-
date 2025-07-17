@@ -1,12 +1,49 @@
-# React + Vite
+# 🖼️ Think41 Image Smoothing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based image smoothing web application built using HTML5 Canvas. This tool allows users to upload an image, apply neighborhood-based smoothing (like 3x3, 5x5), and view pixel-level RGBA values interactively. Also includes options like grayscale filter and dark theme UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📤 Upload any image and display it on canvas.
+- 📏 Choose smoothing kernel size (3x3, 5x5, 7x7).
+- 🧠 Apply a simple average blur using neighborhood logic.
+- 🎨 View real-time RGBA values on pixel hover.
+- 🌚 Dark mode UI with polished styling.
+- 🟦 Toggle grayscale filter with a checkbox.
+- 📥 Reset image anytime.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+| Original Image | Smoothed Image |
+|----------------|----------------|
+| ![](screenshots/original.png) | ![](screenshots/smoothed.png) |
+
+> *(You can add screenshots later in a `screenshots/` folder.)*
+
+---
+
+## 📦 Tech Stack
+
+- ⚛️ React (Frontend)
+- 🎨 CSS (Dark theme styling)
+- 🖌️ HTML5 Canvas API
+- 🛠️ Vite (Development server + bundler)
+
+---
+
+## 🛠️ Installation & Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Varunhrdcr/Think41_frontend-.git
+cd Think41_frontend-
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
